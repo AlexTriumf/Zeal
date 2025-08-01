@@ -1,0 +1,14 @@
+# Data Deletion Instructions
+
+To request deletion of your data:
+1. Email us at **support@yourdomain.com** from the email/phone number associated with your account.  
+2. In the email, state your username or phone number and that you want your account and personal data deleted.  
+3. We will verify the request and confirm deletion within 5 business days.
+
+If you implement automation, Facebook expects your deletion callback endpoint to return JSON like:
+
+```json
+{
+  "url": "https://yourdomain.com/deletion-status/abcdef",
+  "confirmation_code": "unique-code-123456"
+}
